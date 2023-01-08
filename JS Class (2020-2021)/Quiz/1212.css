@@ -1,0 +1,17 @@
+*{
+   background: none; 
+}
+
+.blue{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+.red{
+    position:absolute;
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    top:50px;
+    left:100px;
+} 

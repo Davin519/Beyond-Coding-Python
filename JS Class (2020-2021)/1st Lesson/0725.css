@@ -1,0 +1,28 @@
+#container div{
+    background-color: aqua;
+    color: white;
+    padding: 15px;
+    border: 1px solid white;
+}
+#container{
+    display: grid;
+    grid-template-areas: 'header header'
+                         'menu main'
+                         'menu main'
+                         'menu main'
+                         'footer footer';
+    grid-template-columns: 400px 1fr 300px;
+    grid-template-rows: 150px 150px 1fr 150px 150px;
+}
+#header{
+    grid-area: header;
+}
+#menu{
+    grid-area: menu;
+}
+#main{
+    grid-area: main;
+}
+#footer{
+    grid-area: footer;
+}

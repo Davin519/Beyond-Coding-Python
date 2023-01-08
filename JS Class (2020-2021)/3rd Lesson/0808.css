@@ -1,0 +1,19 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 50px;
+}
+#box1{
+    border-radius: 50%;
+}
+#box2{
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    background-color: aquamarine;
+}
+#box3{
+    border-radius: 50%;
+    height: 100px;
+    background-color: cadetblue;
+}

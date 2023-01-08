@@ -1,0 +1,22 @@
+.photo{
+    background-color: rgb(33, 33, 210);
+}
+
+.photo img{
+    position:relative;
+    width:200px;
+    left:0;
+    opacity: 0;
+    /*transition-property: width;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out; */
+    transition: all 1s 0s ease-in-out;
+}
+
+.photo:hover img{
+    width:400px;
+    left:50%;
+    transform: translate(-50%);
+    opacity: 1;
+}

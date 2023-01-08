@@ -1,0 +1,50 @@
+*{
+   background: none; 
+}
+.blueviolet{
+    width: 800px;
+    height: 600px;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+}
+.blue{
+    position:absolute;
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    top: 0px;
+    left: 400px;
+}
+.red{
+    position:relative;
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    top: 200px;
+    left: 150px;
+} 
+.green{
+    position:absolute;
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    top: 400px;
+    left: 0px;
+}
+.brown{
+    position:absolute;
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+    top: 400px;
+    left: 400px;
+}
+.black{
+    position:absolute;
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    top: 20px;
+    left: 20px;
+}

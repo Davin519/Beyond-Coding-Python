@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.sc{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(247, 247, 57);  
+}
+.sc .dot{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    cursor: default;
+    transition: box-shadow 0.5s;
+}
+
+.sc .dot:active{
+    box-shadow: 0 0 0 200vh white;
+    border: 2px solid black;
+}
+
+.sc .dot.active{
+    background: black;
+    border: 2px solid black;
+}
+
+.sc .dot.active:active{
+        box-shadow: 0 0 0 200vh black;
+        border: 2px solid black;
+}
+
+.sc .dot::before{
+    content: 'Light Mode';
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    white-space: nowrap;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.sc .dot.active::before{
+    content: 'Dark Mode';
+    color: black;
+}
+
+.sc h2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35vw;
+    color: white;
+    background: black;
+    user-select: none;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    mix-blend-mode: multiply;
+}
+
+.sc.active h2{
+    color: black;
+    background: white;
+    mix-blend-mode: screen;
+}
+
+.sc video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

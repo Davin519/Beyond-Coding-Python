@@ -1,0 +1,57 @@
+body{
+    padding:100px;
+    background-color: black;
+    }
+    div{
+    display:inline-block;
+    
+    width:200px;
+    height:200px;
+    background-color:cornflowerblue;
+    transition: all 1s;
+    margin-bottom:100px;
+    margin-left:100px;
+    text-align: center;
+    line-height: 200px;
+    color:white;
+    font-size:25px;
+    transition: all 1s;
+    font-family:fantasy;
+    border-radius: 10%;
+    }
+    #box1:hover{
+    transform: rotate(360deg);
+    }
+    #box2:hover{
+    transform: rotateX(90deg);
+    }
+    #box3:hover{
+    transform: rotateY(90deg);
+    }
+    #box4:hover{
+    transform:scale(1.5);
+    }
+    #box5:hover{
+    transform: scaleX(1.5);
+    }
+    #box6:hover{
+    transform:scaleY(1.5);
+    }
+    #box7:hover{
+    transform: skew(45deg, 45deg);
+    }
+    #box8:hover{
+    transform: skewX(45deg);
+    }
+    #box9:hover{
+    transform: skewY(45deg);
+    }
+    #box10:hover{
+    transform: translate(50px, 50px);
+    }
+    #box11:hover{
+    transform: translateX(50px);
+    }
+    #box12:hover{
+    transform: translateY(50px);
+    }

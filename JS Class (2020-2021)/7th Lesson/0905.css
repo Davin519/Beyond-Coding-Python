@@ -1,0 +1,24 @@
+@keyframes leftmargin{
+    0%{
+        margin-left: 0;
+    }
+    100%{
+        margin-left: 200px;
+    }
+}
+
+div{
+    font-size: 50px;
+    font-family: fantasy;
+    background: aqua;
+    width: 250px;
+    /*animation-name: leftmargin;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both; */
+    animation: leftmargin 1s linear 0.5s infinite alternate both;
+}
+
